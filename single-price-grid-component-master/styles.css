@@ -29,7 +29,7 @@ body{
 
 .header-dir {
         color:  hsl(218, 22%, 67%);
-        text-indent: 50px;
+        text-indent: 40px;
 }
 
 header p {
@@ -62,22 +62,24 @@ header h2 {
 aside {
 
     background-color: hsl(179, 62%, 43%);
-    width: 500px;
-    text-align: center;
+    width: 750px;
     border-style: hidden;
     border-radius: 1px;
     border-color:hsl(179, 62%, 43%);
+    text-indent: 40px;
 }
 
 aside button {
     background-color: hsl(71, 73%, 54%);
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 4px;
     border-color: hsl(71, 73%, 54%);
     text-align: center;
-    padding: 8px 80px;
+    padding: 8px 90px;
     font-weight: 900px;
     color: white;
+    display: block;
+    margin: auto;
     
 
 }
@@ -104,14 +106,20 @@ aside span {
 
 article {
     background-color: hsl(179, 62%, 43%);
-    width: 500px;
-    text-align: center;
+    width: 750px;
+    text-indent: 20px;
     color: white;
     opacity: 0.7;
     border-style: hidden;
     border-radius: 1px;
     border-color: hsl(179, 62%, 43%);
 }
+
+.about-us h2{
+    text-indent: 59px;
+}
+
+ 
 
 
 
